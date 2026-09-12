@@ -42,17 +42,20 @@ public class NewsController {
         }
         model.addAttribute("news", news);
         model.addAttribute("filters", filter);
+
         return "news/list";
     }
 
     @PostMapping("/{id}/togglePinned")
     public String togglePinned(@PathVariable Long id) {
         NewsDto news = newsService.findById(id);
+
         if (news.isPinned()) {
             newsService.OffPinned(id);
         } else {
             newsService.OnPinned(id);
         }
+
         return "redirect:/news";
     }
 
@@ -65,22 +68,26 @@ public class NewsController {
     @PostMapping("/{id}/togglePublished")
     public String togglePublished(@PathVariable Long id) {
         NewsDto news = newsService.findById(id);
+
         if (news.isPublished()) {
             newsService.OffPublished(id);
         } else {
             newsService.OnPublished(id);
         }
+
         return "redirect:/news";
     }
 
     @PostMapping("/{id}/toggleArchive")
     public String toggleArchive(@PathVariable Long id) {
         NewsDto news = newsService.findById(id);
+
         if (news.isArchived()) {
             newsService.OffArchive(id);
         } else {
             newsService.OnArchive(id);
         }
+
         return "redirect:/news";
     }
 
@@ -94,6 +101,7 @@ public class NewsController {
     public String editNews(@PathVariable Long id, Model model) {
         NewsDto news = newsService.findById(id);
         model.addAttribute("news", news);
+
         return "news/edit";
     }
 

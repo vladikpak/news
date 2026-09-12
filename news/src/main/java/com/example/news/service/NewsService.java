@@ -8,7 +8,6 @@ import java.util.List;
 public interface NewsService {
     NewsDto findById(Long id);
 
-
     List<NewsDto> listPinned();
 
     List<NewsDto> listActiveNews();
@@ -32,7 +31,6 @@ public interface NewsService {
     NewsDto updateNews(Long id, NewsDto newsDto, MultipartFile file);
 
     List<NewsDto> listNews();
-
 
     NewsDto createNews(NewsDto newsDto, MultipartFile file);
 }

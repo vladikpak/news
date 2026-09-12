@@ -64,7 +64,9 @@ public class NewsServiceImpl implements NewsService {
                 .orElseThrow(() -> new RuntimeException("news not found"));
 
         news.setPinned(true);
+
         newsRepository.save(news);
+
         return convertToDto(news);
     }
 
@@ -74,6 +76,7 @@ public class NewsServiceImpl implements NewsService {
                 .orElseThrow(() -> new RuntimeException("news not found"));
 
         news.setPinned(false);
+
         return convertToDto(news);
     }
 
@@ -83,6 +86,7 @@ public class NewsServiceImpl implements NewsService {
                 .orElseThrow(() -> new RuntimeException("news not found"));
 
         news.setPublished(true);
+
         return convertToDto(news);
     }
 
@@ -92,6 +96,7 @@ public class NewsServiceImpl implements NewsService {
                 .orElseThrow(() -> new RuntimeException("news not found"));
 
         news.setPublished(false);
+
         return convertToDto(news);
     }
 
@@ -101,6 +106,7 @@ public class NewsServiceImpl implements NewsService {
                 .orElseThrow(() -> new RuntimeException("news not found"));
 
         news.setArchived(true);
+
         return convertToDto(news);
     }
 
@@ -110,6 +116,7 @@ public class NewsServiceImpl implements NewsService {
                 .orElseThrow(() -> new RuntimeException("news not found"));
 
         news.setArchived(false);
+
         return convertToDto(news);
     }
 
@@ -164,6 +171,7 @@ public class NewsServiceImpl implements NewsService {
                 .build();
 
         News savedNews = newsRepository.save(news);
+
         return convertToDto(savedNews);
     }
 

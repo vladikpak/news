@@ -21,23 +21,23 @@ public class NewsController {
         List<NewsDto> news;
 
         if (filter == null || filter.isEmpty()) {
-            news = newsService.listNews();  // все новости
+            news = newsService.listNews();
         } else {
             switch (filter) {
                 case "published":
-                    news = newsService.listActiveNews();  // только опубликованные
+                    news = newsService.listActiveNews();
                     break;
                 case "drafts":
-                    news = newsService.listDrafts();      // только черновики
+                    news = newsService.listDrafts();
                     break;
                 case "archive":
-                    news = newsService.listArchived();    // только архив
+                    news = newsService.listArchived();
                     break;
                 case "pinned":
-                    news = newsService.listPinned();      // только закрепленные
+                    news = newsService.listPinned();
                     break;
                 default:
-                    news = newsService.listNews();        // все новости
+                    news = newsService.listNews();
             }
         }
         model.addAttribute("news", news);

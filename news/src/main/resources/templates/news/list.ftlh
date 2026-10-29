@@ -121,7 +121,7 @@
             </#if>
         </div>
 
-        <!-- Правый сайдбар -->
+
         <div class="col-md-3">
             <div class="list-group">
                 <a class="list-group-item list-group-item-action active">Категории</a>

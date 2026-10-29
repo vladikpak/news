@@ -30,7 +30,7 @@
         </div>
     </div>
 
-        <!-- Центр: список новостей -->
+
         <div class="col-md-6">
             <#if news?? && news?has_content>
                 <div class="row">
@@ -38,7 +38,6 @@
                         <div class="col-md-12 mb-4">
                             <div class="card h-100 ${item.pinned?string('border-danger', '')}">
 
-                                <!-- Картинка -->
                                 <#if item.imagePath?? && item.imagePath != "">
                                     <img src="${item.imagePath}" class="card-img-top" style="height: 200px; object-fit: cover;">
                                 <#else>
@@ -46,7 +45,6 @@
                                 </#if>
 
                                 <div class="card-body">
-                                    <!-- Бейджи статусов -->
                                     <div class="mb-2">
                                         <#if item.pinned>
                                             <span class="badge bg-danger">📌 ЗАКРЕПЛЕНО</span>
@@ -69,9 +67,7 @@
                                     <p class="card-text">${item.description!""}</p>
                                     <p class="card-text"><small class="text-muted">${item.description2!""}</small></p>
 
-                                    <!-- Кнопки действий -->
                                     <div class="mt-3">
-                                        <!-- Опубликовать / В черновик -->
                                         <#if !item.archived>
                                             <form action="/news/${item.id}/togglePublished" method="post" style="display: inline;">
                                                 <@main.csrf />
@@ -83,7 +79,6 @@
                                             </form>
                                         </#if>
 
-                                        <!-- Закрепить / Открепить -->
                                         <#if !item.archived && item.published>
                                             <form action="/news/${item.id}/togglePinned" method="post" style="display: inline;">
                                                 <@main.csrf />
@@ -95,7 +90,6 @@
                                             </form>
                                         </#if>
 
-                                        <!-- В архив / Восстановить -->
                                         <form action="/news/${item.id}/toggleArchive" method="post" style="display: inline;">
                                             <@main.csrf />
                                             <#if item.archived>

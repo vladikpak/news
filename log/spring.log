@@ -1,32 +1,32 @@
-2026-09-12T20:06:05.686+06:00  INFO 3712 --- [news] [main] com.example.news.NewsApplication         : Starting NewsApplication using Java 26.0.2.1 with PID 3712 (C:\Users\User\Desktop\Project\news\news\target\classes started by User in C:\Users\User\Desktop\Project\news)
-2026-09-12T20:06:05.690+06:00 DEBUG 3712 --- [news] [main] com.example.news.NewsApplication         : Running with Spring Boot v4.0.6, Spring v7.0.7
-2026-09-12T20:06:05.691+06:00  INFO 3712 --- [news] [main] com.example.news.NewsApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-09-12T20:06:07.223+06:00  INFO 3712 --- [news] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-09-12T20:06:07.295+06:00  INFO 3712 --- [news] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
-2026-09-12T20:06:07.991+06:00  INFO 3712 --- [news] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8089 (http)
-2026-09-12T20:06:08.028+06:00  INFO 3712 --- [news] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-09-12T20:06:08.028+06:00  INFO 3712 --- [news] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
-2026-09-12T20:06:08.098+06:00  INFO 3712 --- [news] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2338 ms
-2026-09-12T20:06:08.168+06:00 DEBUG 3712 --- [news] [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
-2026-09-12T20:06:08.356+06:00  INFO 3712 --- [news] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-09-12T20:06:08.896+06:00  INFO 3712 --- [news] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:./db/test user=ROOT
-2026-09-12T20:06:08.898+06:00  INFO 3712 --- [news] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-09-12T20:06:08.979+06:00  INFO 3712 --- [news] [main] liquibase.database                       : Set default schema name to PUBLIC
-2026-09-12T20:06:09.426+06:00  INFO 3712 --- [news] [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
-2026-09-12T20:06:09.481+06:00  INFO 3712 --- [news] [main] liquibase.ui                             : Database is up to date, no changesets to execute
-2026-09-12T20:06:09.482+06:00  INFO 3712 --- [news] [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
-2026-09-12T20:06:09.490+06:00  INFO 3712 --- [news] [main] liquibase.util                           : UPDATE SUMMARY
-2026-09-12T20:06:09.490+06:00  INFO 3712 --- [news] [main] liquibase.util                           : Run:                          0
-2026-09-12T20:06:09.491+06:00  INFO 3712 --- [news] [main] liquibase.util                           : Previously run:               1
-2026-09-12T20:06:09.491+06:00  INFO 3712 --- [news] [main] liquibase.util                           : Filtered out:                 0
-2026-09-12T20:06:09.491+06:00  INFO 3712 --- [news] [main] liquibase.util                           : -------------------------------
-2026-09-12T20:06:09.491+06:00  INFO 3712 --- [news] [main] liquibase.util                           : Total change sets:            1
-2026-09-12T20:06:09.492+06:00  INFO 3712 --- [news] [main] liquibase.util                           : Update summary generated
-2026-09-12T20:06:09.493+06:00  INFO 3712 --- [news] [main] liquibase.command                        : Command execution complete
-2026-09-12T20:06:11.444+06:00  INFO 3712 --- [news] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-09-12T20:06:11.549+06:00  INFO 3712 --- [news] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
-2026-09-12T20:06:12.796+06:00  INFO 3712 --- [news] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-09-12T20:06:13.534+06:00  INFO 3712 --- [news] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-10-29T23:38:27.039+06:00  INFO 16272 --- [news] [main] com.example.news.NewsApplication         : Starting NewsApplication using Java 26.0.2.1 with PID 16272 (C:\Users\User\Desktop\Project\news\news\target\classes started by User in C:\Users\User\Desktop\Project\news)
+2026-10-29T23:38:27.046+06:00 DEBUG 16272 --- [news] [main] com.example.news.NewsApplication         : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-10-29T23:38:27.048+06:00  INFO 16272 --- [news] [main] com.example.news.NewsApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-10-29T23:38:27.973+06:00  INFO 16272 --- [news] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-29T23:38:28.027+06:00  INFO 16272 --- [news] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2026-10-29T23:38:28.589+06:00  INFO 16272 --- [news] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8089 (http)
+2026-10-29T23:38:28.602+06:00  INFO 16272 --- [news] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-29T23:38:28.603+06:00  INFO 16272 --- [news] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-10-29T23:38:28.655+06:00  INFO 16272 --- [news] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1533 ms
+2026-10-29T23:38:28.710+06:00 DEBUG 16272 --- [news] [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2026-10-29T23:38:28.807+06:00  INFO 16272 --- [news] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-29T23:38:33.120+06:00  INFO 16272 --- [news] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:./db/test user=ROOT
+2026-10-29T23:38:33.121+06:00  INFO 16272 --- [news] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-29T23:38:33.167+06:00  INFO 16272 --- [news] [main] liquibase.database                       : Set default schema name to PUBLIC
+2026-10-29T23:38:33.521+06:00  INFO 16272 --- [news] [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2026-10-29T23:38:33.559+06:00  INFO 16272 --- [news] [main] liquibase.ui                             : Database is up to date, no changesets to execute
+2026-10-29T23:38:33.561+06:00  INFO 16272 --- [news] [main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2026-10-29T23:38:33.567+06:00  INFO 16272 --- [news] [main] liquibase.util                           : UPDATE SUMMARY
+2026-10-29T23:38:33.567+06:00  INFO 16272 --- [news] [main] liquibase.util                           : Run:                          0
+2026-10-29T23:38:33.568+06:00  INFO 16272 --- [news] [main] liquibase.util                           : Previously run:               1
+2026-10-29T23:38:33.568+06:00  INFO 16272 --- [news] [main] liquibase.util                           : Filtered out:                 0
+2026-10-29T23:38:33.568+06:00  INFO 16272 --- [news] [main] liquibase.util                           : -------------------------------
+2026-10-29T23:38:33.568+06:00  INFO 16272 --- [news] [main] liquibase.util                           : Total change sets:            1
+2026-10-29T23:38:33.569+06:00  INFO 16272 --- [news] [main] liquibase.util                           : Update summary generated
+2026-10-29T23:38:33.570+06:00  INFO 16272 --- [news] [main] liquibase.command                        : Command execution complete
+2026-10-29T23:38:35.616+06:00  INFO 16272 --- [news] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-29T23:38:35.670+06:00  INFO 16272 --- [news] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-10-29T23:38:36.122+06:00  INFO 16272 --- [news] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-29T23:38:36.195+06:00  INFO 16272 --- [news] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:h2:./db/test]
 	Database driver: H2 JDBC Driver
 	Database dialect: H2Dialect
@@ -38,54 +38,44 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-09-12T20:06:15.048+06:00  INFO 3712 --- [news] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-09-12T20:06:15.104+06:00  INFO 3712 --- [news] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-09-12T20:06:15.233+06:00  INFO 3712 --- [news] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-09-12T20:06:16.290+06:00  WARN 3712 --- [news] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-09-12T20:06:16.362+06:00  WARN 3712 --- [news] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+2026-10-29T23:38:37.028+06:00  INFO 16272 --- [news] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-29T23:38:37.060+06:00  INFO 16272 --- [news] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29T23:38:37.130+06:00  INFO 16272 --- [news] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-29T23:38:37.820+06:00  WARN 16272 --- [news] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-29T23:38:37.879+06:00  WARN 16272 --- [news] [main] .s.a.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: 8cd068e5-7bc3-402a-bef9-f10b0bbc5825
+Using generated security password: 15a53592-a0dd-4f9c-ab06-2f17036a404f
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2026-09-12T20:06:16.370+06:00  INFO 3712 --- [news] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-09-12T20:06:16.610+06:00  INFO 3712 --- [news] [main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
-2026-09-12T20:06:16.694+06:00 DEBUG 3712 --- [news] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
-2026-09-12T20:06:16.740+06:00 DEBUG 3712 --- [news] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /static/**, /uploads/**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2026-09-12T20:06:16.790+06:00 DEBUG 3712 --- [news] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-09-12T20:06:16.916+06:00 DEBUG 3712 --- [news] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-09-12T20:06:17.210+06:00 DEBUG 3712 --- [news] [main] o.s.w.s.v.f.FreeMarkerConfigurer         : File system access not preferred: using SpringTemplateLoader
-2026-09-12T20:06:17.304+06:00  INFO 3712 --- [news] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8089 (http) with context path '/'
-2026-09-12T20:06:17.318+06:00  INFO 3712 --- [news] [main] com.example.news.NewsApplication         : Started NewsApplication in 12.505 seconds (process running for 15.583)
-2026-09-12T20:06:17.322+06:00  WARN 3712 --- [news] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
-2026-09-12T20:06:17.323+06:00  WARN 3712 --- [news] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
-2026-09-12T20:06:22.982+06:00  INFO 3712 --- [news] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-09-12T20:06:22.984+06:00  INFO 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-09-12T20:06:22.985+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2026-09-12T20:06:22.985+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2026-09-12T20:06:22.986+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@293918f9
-2026-09-12T20:06:22.987+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6fec6b75
-2026-09-12T20:06:22.988+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
-2026-09-12T20:06:22.988+06:00  INFO 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2026-09-12T20:06:23.008+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2026-09-12T20:06:23.020+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.news.controller.AuthController#index()
-2026-09-12T20:06:23.111+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2026-09-12T20:06:23.112+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.w.s.view.freemarker.FreeMarkerView   : View name [index], model {}
-2026-09-12T20:06:23.113+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.w.s.view.freemarker.FreeMarkerView   : Rendering [index.ftlh]
-2026-09-12T20:06:23.134+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-09-12T20:06:23.677+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
-2026-09-12T20:06:23.680+06:00  WARN 3712 --- [news] [http-nio-8089-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
-2026-09-12T20:06:23.687+06:00  WARN 3712 --- [news] [http-nio-8089-exec-2] o.s.web.servlet.PageNotFound             : No endpoint GET /favicon.ico.
-2026-09-12T20:06:23.687+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /favicon.ico.]
-2026-09-12T20:06:23.687+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2026-09-12T20:06:23.692+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2026-09-12T20:06:23.694+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
-2026-09-12T20:06:23.712+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/yaml]
-2026-09-12T20:06:23.713+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Sep 12 20:06:23 GMT+06:00 2026, status=404, error=Not Found, path=/favicon.ico}]
-2026-09-12T20:06:23.882+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2026-09-12T20:06:24.928+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/news", parameters={}
-2026-09-12T20:06:24.929+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.news.controller.NewsController#listNews(String, Model)
-2026-09-12T20:06:25.018+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-3] org.hibernate.SQL                        : 
+2026-10-29T23:38:37.886+06:00  INFO 16272 --- [news] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-10-29T23:38:38.034+06:00  INFO 16272 --- [news] [main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-10-29T23:38:38.132+06:00 DEBUG 16272 --- [news] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2026-10-29T23:38:38.155+06:00 DEBUG 16272 --- [news] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /static/**, /uploads/**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-10-29T23:38:38.183+06:00 DEBUG 16272 --- [news] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-10-29T23:38:38.247+06:00 DEBUG 16272 --- [news] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-10-29T23:38:38.442+06:00 DEBUG 16272 --- [news] [main] o.s.w.s.v.f.FreeMarkerConfigurer         : File system access not preferred: using SpringTemplateLoader
+2026-10-29T23:38:38.521+06:00  INFO 16272 --- [news] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8089 (http) with context path '/'
+2026-10-29T23:38:38.528+06:00  INFO 16272 --- [news] [main] com.example.news.NewsApplication         : Started NewsApplication in 12.116 seconds (process running for 12.992)
+2026-10-29T23:38:38.530+06:00  WARN 16272 --- [news] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-10-29T23:38:38.531+06:00  WARN 16272 --- [news] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-10-29T23:39:05.775+06:00  INFO 16272 --- [news] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-29T23:39:05.775+06:00  INFO 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-29T23:39:05.776+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-10-29T23:39:05.776+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-10-29T23:39:05.777+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7d968ec1
+2026-10-29T23:39:05.777+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@293918f9
+2026-10-29T23:39:05.778+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2026-10-29T23:39:05.778+06:00  INFO 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-10-29T23:39:05.795+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2026-10-29T23:39:05.802+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.news.controller.AuthController#index()
+2026-10-29T23:39:05.881+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/jxl, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2026-10-29T23:39:05.882+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.w.s.view.freemarker.FreeMarkerView   : View name [index], model {}
+2026-10-29T23:39:05.883+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.w.s.view.freemarker.FreeMarkerView   : Rendering [index.ftlh]
+2026-10-29T23:39:05.912+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-29T23:39:07.084+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/news", parameters={}
+2026-10-29T23:39:07.085+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.news.controller.NewsController#listNews(String, Model)
+2026-10-29T23:39:07.166+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-2] org.hibernate.SQL                        : 
     select
         n1_0.id,
         n1_0.archived,
@@ -98,44 +88,21 @@ This generated password is for development use only. Your security configuration
         n1_0.title 
     from
         news n1_0
-2026-09-12T20:06:25.154+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2026-09-12T20:06:25.157+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-3] o.s.w.s.view.freemarker.FreeMarkerView   : View name [news/list], model {news=[NewsDto(id=1, title=ddddd, imagePath=/uploads/products/1778841743646_5823589-2920x1640-desktop-hd-boy-programmer-wallpaper-image.jpg, description=dddddd, description2=dddddd, publishDate=2026-05-15T16:42:23.647536, published=false, pinned=false, archived=true), NewsDto(id=2, title=ввввыыыы, imagePath=/uploads/products/1778842151779_12-saudi-red-sea-authority-publishes-2024s-achievements.jpg, description=ыыффффффффф, description2=ФФФФФФФФФФФФФФ, publishDate=2026-05-15T16:49:11.780867, published=true, pinned=false, archived=true), NewsDto(id=3, title=fgdgd, imagePath=/uploads/products/1778871946085_maxresdefault_(1).jpg, description=gfdgfdg, description2=gfdgd, publishDate=2026-05-16T01:05:46.085298, published=true, pinned=true, archived=false)], filters=null}
-2026-09-12T20:06:25.157+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-3] o.s.w.s.view.freemarker.FreeMarkerView   : Rendering [news/list.ftlh]
-2026-09-12T20:06:25.224+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-09-12T20:06:25.272+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/uploads/products/1778841743646_5823589-2920x1640-desktop-hd-boy-programmer-wallpaper-image.jpg", parameters={}
-2026-09-12T20:06:25.272+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/uploads/products/1778842151779_12-saudi-red-sea-authority-publishes-2024s-achievements.jpg", parameters={}
-2026-09-12T20:06:25.275+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:uploads/]]
-2026-09-12T20:06:25.275+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:uploads/]]
-2026-09-12T20:06:25.284+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/uploads/products/1778871946085_maxresdefault_(1).jpg", parameters={}
-2026-09-12T20:06:25.285+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:uploads/]]
-2026-09-12T20:06:25.301+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-09-12T20:06:25.325+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-09-12T20:06:25.335+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-09-12T20:06:33.457+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/.well-known/appspecific/com.chrome.devtools.json", parameters={}
-2026-09-12T20:06:33.458+06:00  WARN 3712 --- [news] [http-nio-8089-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /.well-known/appspecific/com.chrome.devtools.json
-2026-09-12T20:06:33.458+06:00  WARN 3712 --- [news] [http-nio-8089-exec-7] o.s.web.servlet.PageNotFound             : No endpoint GET /.well-known/appspecific/com.chrome.devtools.json.
-2026-09-12T20:06:33.458+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /.well-known/appspecific/com.chrome.devtools.json.]
-2026-09-12T20:06:33.459+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2026-09-12T20:06:33.460+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2026-09-12T20:06:33.460+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
-2026-09-12T20:06:33.462+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
-2026-09-12T20:06:33.462+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Sep 12 20:06:33 GMT+06:00 2026, status=404, error=Not Found, path=/.well-known/appspe (truncated)...]
-2026-09-12T20:06:33.463+06:00 DEBUG 3712 --- [news] [http-nio-8089-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2026-09-12T20:08:10.763+06:00  INFO 3712 --- [news] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-09-12T20:08:10.771+06:00  INFO 3712 --- [news] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-09-12T20:08:10.776+06:00  INFO 3712 --- [news] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-09-12T20:08:10.779+06:00  INFO 3712 --- [news] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-09-12T20:08:10.781+06:00  INFO 3712 --- [news] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-09-12T20:08:15.504+06:00  INFO 11012 --- [news] [main] com.example.news.NewsApplication         : Starting NewsApplication using Java 26.0.2.1 with PID 11012 (C:\Users\User\Desktop\Project\news\news\target\classes started by User in C:\Users\User\Desktop\Project\news)
-2026-09-12T20:08:15.510+06:00 DEBUG 11012 --- [news] [main] com.example.news.NewsApplication         : Running with Spring Boot v4.0.6, Spring v7.0.7
-2026-09-12T20:08:15.512+06:00  INFO 11012 --- [news] [main] com.example.news.NewsApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-09-12T20:08:16.777+06:00  INFO 11012 --- [news] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-09-12T20:08:16.857+06:00  INFO 11012 --- [news] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
-2026-09-12T20:08:17.598+06:00  INFO 11012 --- [news] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8089 (http)
-2026-09-12T20:08:17.851+06:00  INFO 11012 --- [news] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2262 ms
-2026-09-12T20:08:17.926+06:00 DEBUG 11012 --- [news] [main] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
-2026-09-12T20:08:18.035+06:00  INFO 11012 --- [news] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-09-12T20:08:18.348+06:00  INFO 11012 --- [news] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:./db/test user=ROOT
-2026-09-12T20:08:18.350+06:00  INFO 11012 --- [news] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-09-12T20:08:20.321+06:00  INFO 11012 --- [news] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-09-12T20:08:20.391+06:00  INFO 11012 --- [news] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-10-29T23:39:07.271+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/jxl, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2026-10-29T23:39:07.273+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-2] o.s.w.s.view.freemarker.FreeMarkerView   : View name [news/list], model {news=[NewsDto(id=1, title=ddddd, imagePath=/uploads/products/1778841743646_5823589-2920x1640-desktop-hd-boy-programmer-wallpaper-image.jpg, description=dddddd, description2=dddddd, publishDate=2026-05-15T16:42:23.647536, published=false, pinned=false, archived=true), NewsDto(id=2, title=ввввыыыы, imagePath=/uploads/products/1778842151779_12-saudi-red-sea-authority-publishes-2024s-achievements.jpg, description=ыыффффффффф, description2=ФФФФФФФФФФФФФФ, publishDate=2026-05-15T16:49:11.780867, published=true, pinned=false, archived=true), NewsDto(id=3, title=fgdgd, imagePath=/uploads/products/1778871946085_maxresdefault_(1).jpg, description=gfdgfdg, description2=gfdgd, publishDate=2026-05-16T01:05:46.085298, published=true, pinned=true, archived=false)], filters=null}
+2026-10-29T23:39:07.274+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-2] o.s.w.s.view.freemarker.FreeMarkerView   : Rendering [news/list.ftlh]
+2026-10-29T23:39:07.318+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-29T23:39:07.359+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/uploads/products/1778841743646_5823589-2920x1640-desktop-hd-boy-programmer-wallpaper-image.jpg", parameters={}
+2026-10-29T23:39:07.360+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/uploads/products/1778842151779_12-saudi-red-sea-authority-publishes-2024s-achievements.jpg", parameters={}
+2026-10-29T23:39:07.361+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/uploads/products/1778871946085_maxresdefault_(1).jpg", parameters={}
+2026-10-29T23:39:07.363+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:uploads/]]
+2026-10-29T23:39:07.363+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:uploads/]]
+2026-10-29T23:39:07.363+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [URL [file:uploads/]]
+2026-10-29T23:39:07.381+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-29T23:39:07.424+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-29T23:39:07.433+06:00 DEBUG 16272 --- [news] [http-nio-8089-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-10-29T23:41:31.673+06:00  INFO 16272 --- [news] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-29T23:41:31.678+06:00  INFO 16272 --- [news] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-29T23:41:31.682+06:00  INFO 16272 --- [news] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29T23:41:31.684+06:00  INFO 16272 --- [news] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-29T23:41:31.685+06:00  INFO 16272 --- [news] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

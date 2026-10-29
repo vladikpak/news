@@ -37,11 +37,11 @@ public class News {
 
     @Builder.Default
     @Column(name = "published")
-    private boolean published = false;   // опубликовано/черновик
+    private boolean published = false;
 
     @Builder.Default
     @Column(name = "pinned")
-    private boolean pinned = false;      // закреплено
+    private boolean pinned = false;
 
     @Builder.Default
     @Column(name = "archived")
